@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Sources" displayName="Sources" projectFiles="true">
+      <logicalFolder name="C" displayName="C" projectFiles="true">
+        <itemPath>Sources/C/actions.c</itemPath>
+        <itemPath>Sources/C/batiment.c</itemPath>
+        <itemPath>Sources/C/box.c</itemPath>
+        <itemPath>Sources/C/caserne.c</itemPath>
+        <itemPath>Sources/C/chantier.c</itemPath>
+        <itemPath>Sources/C/checkbox.c</itemPath>
+        <itemPath>Sources/C/choice.c</itemPath>
+        <itemPath>Sources/C/client.c</itemPath>
+        <itemPath>Sources/C/credits.c</itemPath>
+        <itemPath>Sources/C/defense.c</itemPath>
+        <itemPath>Sources/C/description..c</itemPath>
+        <itemPath>Sources/C/first_screen.c</itemPath>
+        <itemPath>Sources/C/init.c</itemPath>
+        <itemPath>Sources/C/init_position.c</itemPath>
+        <itemPath>Sources/C/ip.c</itemPath>
+        <itemPath>Sources/C/listener.c</itemPath>
+        <itemPath>Sources/C/loading.c</itemPath>
+        <itemPath>Sources/C/main.c</itemPath>
+        <itemPath>Sources/C/menu.c</itemPath>
+        <itemPath>Sources/C/mouse.c</itemPath>
+        <itemPath>Sources/C/nav.c</itemPath>
+        <itemPath>Sources/C/notify.c</itemPath>
+        <itemPath>Sources/C/options.c</itemPath>
+        <itemPath>Sources/C/planete.c</itemPath>
+        <itemPath>Sources/C/quit.c</itemPath>
+        <itemPath>Sources/C/section_1.c</itemPath>
+        <itemPath>Sources/C/section_2.c</itemPath>
+        <itemPath>Sources/C/section_3.c</itemPath>
+        <itemPath>Sources/C/section_4.c</itemPath>
+        <itemPath>Sources/C/section_5.c</itemPath>
+        <itemPath>Sources/C/serveur.c</itemPath>
+        <itemPath>Sources/C/settings.c</itemPath>
+        <itemPath>Sources/C/timer.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="H" displayName="H" projectFiles="true">
+        <itemPath>Sources/H/actions.h</itemPath>
+        <itemPath>Sources/H/batiment.h</itemPath>
+        <itemPath>Sources/H/box.h</itemPath>
+        <itemPath>Sources/H/button.h</itemPath>
+        <itemPath>Sources/H/caserne.h</itemPath>
+        <itemPath>Sources/H/chantier.h</itemPath>
+        <itemPath>Sources/H/checkbox.h</itemPath>
+        <itemPath>Sources/H/choice.h</itemPath>
+        <itemPath>Sources/H/client.h</itemPath>
+        <itemPath>Sources/H/credits.h</itemPath>
+        <itemPath>Sources/H/defense.h</itemPath>
+        <itemPath>Sources/H/first_screen.h</itemPath>
+        <itemPath>Sources/H/includes.h</itemPath>
+        <itemPath>Sources/H/init.h</itemPath>
+        <itemPath>Sources/H/init_position.h</itemPath>
+        <itemPath>Sources/H/ip.h</itemPath>
+        <itemPath>Sources/H/listener.h</itemPath>
+        <itemPath>Sources/H/loading.h</itemPath>
+        <itemPath>Sources/H/menu.h</itemPath>
+        <itemPath>Sources/H/mouse.h</itemPath>
+        <itemPath>Sources/H/notify.h</itemPath>
+        <itemPath>Sources/H/options.h</itemPath>
+        <itemPath>Sources/H/planete.h</itemPath>
+        <itemPath>Sources/H/quit.h</itemPath>
+        <itemPath>Sources/H/section.h</itemPath>
+        <itemPath>Sources/H/serveur.h</itemPath>
+        <itemPath>Sources/H/settings.h</itemPath>
+        <itemPath>Sources/H/timer.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Structures" displayName="Structures" projectFiles="true">
+        <itemPath>Sources/Structures/batiment_struct.h</itemPath>
+        <itemPath>Sources/Structures/box_struct.h</itemPath>
+        <itemPath>Sources/Structures/button_struct.h</itemPath>
+        <itemPath>Sources/Structures/caserne_struct.h</itemPath>
+        <itemPath>Sources/Structures/chantier_struct.h</itemPath>
+        <itemPath>Sources/Structures/checkbox_struct.h</itemPath>
+        <itemPath>Sources/Structures/choice_struct.h</itemPath>
+        <itemPath>Sources/Structures/client_struct.h</itemPath>
+        <itemPath>Sources/Structures/defense_struct.h</itemPath>
+        <itemPath>Sources/Structures/description_struct.h</itemPath>
+        <itemPath>Sources/Structures/game_struct.h</itemPath>
+        <itemPath>Sources/Structures/ip_struct.h</itemPath>
+        <itemPath>Sources/Structures/loading_struct.h</itemPath>
+        <itemPath>Sources/Structures/login_struct.h</itemPath>
+        <itemPath>Sources/Structures/menu_struct.h</itemPath>
+        <itemPath>Sources/Structures/notify_struct.h</itemPath>
+        <itemPath>Sources/Structures/options_struct.h</itemPath>
+        <itemPath>Sources/Structures/planete_struct.h</itemPath>
+        <itemPath>Sources/Structures/player_struct.h</itemPath>
+        <itemPath>Sources/Structures/quit_struct.h</itemPath>
+        <itemPath>Sources/Structures/ressources_struct.h</itemPath>
+        <itemPath>Sources/Structures/serveur_struct.h</itemPath>
+        <itemPath>Sources/Structures/settings_struct.h</itemPath>
+        <itemPath>Sources/Structures/sound_struct.h</itemPath>
+        <itemPath>Sources/Structures/timer_struct.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-lSDL -lSDLmain -lSDL_image -lSDL_ttf -lSDL_net -lSDL_mixer</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
