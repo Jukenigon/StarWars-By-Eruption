@@ -45,7 +45,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Sources/C/client.o \
 	${OBJECTDIR}/Sources/C/credits.o \
 	${OBJECTDIR}/Sources/C/defense.o \
-	${OBJECTDIR}/Sources/C/description..o \
+	${OBJECTDIR}/Sources/C/description.o \
 	${OBJECTDIR}/Sources/C/first_screen.o \
 	${OBJECTDIR}/Sources/C/init.o \
 	${OBJECTDIR}/Sources/C/init_position.o \
@@ -144,10 +144,10 @@ ${OBJECTDIR}/Sources/C/defense.o: Sources/C/defense.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Sources/C/defense.o Sources/C/defense.c
 
-${OBJECTDIR}/Sources/C/description..o: Sources/C/description..c 
+${OBJECTDIR}/Sources/C/description.o: Sources/C/description.c 
 	${MKDIR} -p ${OBJECTDIR}/Sources/C
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Sources/C/description..o Sources/C/description..c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Sources/C/description.o Sources/C/description.c
 
 ${OBJECTDIR}/Sources/C/first_screen.o: Sources/C/first_screen.c 
 	${MKDIR} -p ${OBJECTDIR}/Sources/C

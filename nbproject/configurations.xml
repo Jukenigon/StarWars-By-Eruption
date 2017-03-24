@@ -13,7 +13,7 @@
         <itemPath>Sources/C/client.c</itemPath>
         <itemPath>Sources/C/credits.c</itemPath>
         <itemPath>Sources/C/defense.c</itemPath>
-        <itemPath>Sources/C/description..c</itemPath>
+        <itemPath>Sources/C/description.c</itemPath>
         <itemPath>Sources/C/first_screen.c</itemPath>
         <itemPath>Sources/C/init.c</itemPath>
         <itemPath>Sources/C/init_position.c</itemPath>

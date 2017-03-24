@@ -16,7 +16,7 @@ void init(Game *game)
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024);
     Mix_AllocateChannels(10);
     SDLNet_Init();
-    game->screen = SDL_SetVideoMode(1366, 768, 32,  SDL_HWSURFACE | SDL_DOUBLEBUF);
+    game->screen = SDL_SetVideoMode(1366, 768, 32, SDL_HWSURFACE | SDL_DOUBLEBUF);
     game->connect = 0;
     game->timer.tempsPrecedent = 0;
     game->timer.tempsActuel = 0;
